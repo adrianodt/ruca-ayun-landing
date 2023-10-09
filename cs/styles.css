@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500&family=Outfit:wght@300&display=swap");
+
+@font-face {
+    font-family: "Magica";
+    src: url(/font/Magica.otf);
+}
+
+/*
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Magica';
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #30002d;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 50px 100px;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+}
+
+header nav {
+    display: flex;
+    font-size: 30px;
+    flex-direction: row;
+    gap: 30px;
+}
+
+header nav a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 80px 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.main h1 {
+    font-size: 48px;
+    font-family: "Magica";
+}
+
+.main p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.main img {
+    height: 300px;
+    border-radius: 15px;
+}
+
+.main1 {
+    gap: 50px;
+}
+
+.main1 button,
+.action button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e12301;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px black;
+}
+
+.info, .whoami{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+    align-items: center;
+}
+
+.pichis {
+    display: flex;
+    align-items: center;
+}
+
+.pichis p {
+    text-align: center;
+    padding: 50px;
+}
+
+.pichis img {
+    width: 200px;
+}
+.info h2, .whoami h2{
+    font-size: 36px;
+    font-family: "Magica";
+    color: #30002d;
+    padding-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.cards h3 {
+    font-family: "Magica";
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+
+    padding: 100px 100px;
+}
+
+.quote .text {
+    font-size: 24px;
+    color: #dba24a;
+    font-weight: 100;
+}
+
+.quote .author {
+    color: #dba24a;
+    font-size: 26px;
+    text-align: end;
+    padding-top: 20px;
+}
+
+.action {
+    background-color: #dba24a;
+    margin: 80px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.text h2 {
+    color: #fffa8a;
+    font-size: 30px;
+}
+
+.text p {
+    color: #fffa8a;
+    font-size: 22px;
+}
+
+.footer {
+    background-color: #ce0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    font-size: 24px;
+    color: white;
+}
